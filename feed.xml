@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eduardo Lopes's blog</title>
+    <atom:link href="http://eduardolopes.github.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://eduardolopes.github.io</link>
+    <description></description>
+    <pubDate>Tue, 30 Sep 2014 21:00:00 -0300</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Tileset Gen</title>
+      <link>http://eduardolopes.github.io/articles/tileset-generator/</link>
+      <pubDate>Tue, 30 Sep 2014 21:00:00 -0300</pubDate>
+      <guid isPermaLink="true">http://eduardolopes.github.io/articles/tileset-generator/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;img src=&quot;/articles/tileset-generator/tileset-gen-print.png&quot; alt=&quot;Tileset Gen&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Tileset gen it’s a tool to make easier draw tilesets!  &lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In the last 2 months i made 2 games, one to &lt;a href=&quot;http://www.ludumdare.com/compo/ludum-dare-30/?action=preview&amp;amp;uid=41337&quot;&gt;ludum dare 30&lt;/a&gt; and another one to &lt;a href=&quot;http://js13kgames.com/entries/elemental-block-shooters&quot;&gt;js13k games 2014&lt;/a&gt;. The two games are tile-based, have different terrains and each terrein need a tileset with 47 tiles to make all combinations. What means the i need to draw 47 different tiles to each terrain.&lt;/p&gt;
+&lt;p&gt;I wanted to make this process easier, so i was think a lot about make a tileset generator, something that receive a small tileset base, and output a tileset with 47 tiles, or 16 tiles or etc.&lt;/p&gt;
+&lt;p&gt;Finally i made it! It’s working, i have a alpha version, with the main features. You can access here: &lt;a href=&quot;http://eduardo.itch.io/tileset-gen&quot;&gt;Tileset Gen&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;how-it-works&quot;&gt;How it works&lt;/h3&gt;
+&lt;p&gt;Let’s say that each tile of your game it’s 32x32 size. The size of the tileset base in this case had to be 96x64, and follow this pattern:&lt;/p&gt;
+&lt;center&gt;
+  &lt;img src=&quot;/articles/tileset-generator/tileset-base-template.png&quot; alt=&quot;tileset base&quot;&gt;
+&lt;/center&gt;
+
+&lt;p&gt;If you want 64x64 tiles, the base had to be 196x128. The math works like this:&lt;/p&gt;
+&lt;p&gt;32x32 tile:&lt;br&gt;width: 32 &lt;em&gt; 3 = 96;&lt;br&gt;height: 32 &lt;/em&gt; 2 = 64;  &lt;/p&gt;
+&lt;p&gt;48x48 tile:&lt;br&gt;width: 48 &lt;em&gt; 3 = 144;&lt;br&gt;height: 48 &lt;/em&gt; 2 = 96;  &lt;/p&gt;
+&lt;p&gt;64x64 tile:&lt;br&gt;width: 64 &lt;em&gt; 3 = 196;&lt;br&gt;height: 64 &lt;/em&gt; 2 = 128;  &lt;/p&gt;
+&lt;p&gt;You get the idea!&lt;/p&gt;
+&lt;h2 id=&quot;some-examples-&quot;&gt;Some examples:  &lt;/h2&gt;
+&lt;p&gt;Generate 32x32 tiles:
+&lt;img src=&quot;/articles/tileset-generator/tileset-base-test-2.png&quot; alt=&quot;tileset base example 1&quot;&gt;
+Generate 64x64 tiles:
+&lt;img src=&quot;/articles/tileset-generator/tileset-base-test-1-64.png&quot; alt=&quot;tileset base example 2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;You can download these examples and use to test the app! When upload the tileset base, you need to set the tile size in the config bar.&lt;/p&gt;
+&lt;p&gt;You can upload how much tileset base you want; you can delete them if you want; when all it’s done, you can download a png of everything.&lt;/p&gt;
+&lt;p&gt;The app it’s in alpha, there’s a lot of things to add.&lt;/p&gt;
+&lt;p&gt;I need feedback! Let me know if this can help you, and how did you think this can be better. Leave a comment or send me a tweet on &lt;a href=&quot;https://twitter.com/EdoardoLopes&quot;&gt;@EdoardoLopes&lt;/a&gt; if you need some help.&lt;/p&gt;
+&lt;p&gt;This is a open source project! The code is on github: &lt;a href=&quot;https://github.com/EduardoLopes/tileset-gen&quot;&gt;tileset-gen&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
